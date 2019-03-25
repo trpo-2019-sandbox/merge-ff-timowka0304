@@ -30,6 +30,7 @@ int main()
 {
     int arr[] = {3, 1, 4, 1, 5, 9, 2};
     int min = min_element(arr, 7);
+    print_array(arr, 7);
     printf("Min element: %d\n", min);
 
     return 0;
